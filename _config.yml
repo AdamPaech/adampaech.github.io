@@ -2,7 +2,3 @@ theme: minima
 title: Adam Paech
 github:
   is_project_page: false
-footer_links:
-  - title: GitHub
-    url: https://github.com/AdamPaech
-    icon: fab fa-github-square
