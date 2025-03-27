@@ -1,20 +1,18 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const toggleButton = document.getElementById("dark-mode-toggle");
-    const body = document.body;
+const toggleButton = document.createElement('button');
+toggleButton.id = 'dark-mode-toggle';
+toggleButton.innerHTML = '🌙';
 
-    // Check localStorage for dark mode preference
-    if (localStorage.getItem("dark-mode") === "enabled") {
-        body.classList.add("dark-mode");
-    }
+document.body.appendChild(toggleButton);
 
-    toggleButton.addEventListener("click", function () {
-        body.classList.toggle("dark-mode");
-
-        // Save preference in localStorage
-        if (body.classList.contains("dark-mode")) {
-            localStorage.setItem("dark-mode", "enabled");
-        } else {
-            localStorage.setItem("dark-mode", "disabled");
-        }
-    });
+toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    // Save the dark mode preference in local storage
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode);
 });
+
+// Check local storage for saved dark mode preference
+if (localStorage.getItem('darkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+}
