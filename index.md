@@ -7,35 +7,32 @@ title: Adam Paech
 <script defer src="assets/script.js"></script>
 
 <div class="container">
-
-  <!-- Sidebar for Navigation -->
-  <div class="sidebar">
-    <h2>Navigation</h2>
-    <ul>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#volunteering">Volunteering</a></li>
-      <li><a href="#interests">Interests</a></li>
-    </ul>
+  <!-- Left Section: Photo, Bio, Links -->
+  <div class="left-side">
+    <img src="assets/profile.jpg" alt="Adam Paech" class="profile-img">
+    <h1>Adam Paech</h1>
+    <p>TODO</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/adam-paech" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://github.com/AdamPaech" target="_blank" class="github">GitHub</a>
+    </div>
   </div>
 
-  <!-- Main Content Area -->
+  <!-- Right Section: Main Content (Markdown Sections) -->
   <div class="main-content">
-    <h1 id="about-me">About Me</h1>
-    <p>TODO: Write about yourself here.</p>
+    ## About Me  
+    TODO
 
-    <h1 id="experience">Experience</h1>
-    <p>TODO: Write about your work experience here.</p>
+    ## Experience  
+    TODO
 
-    <h1 id="education">Education</h1>
-    <p>TODO: Write about your education here.</p>
+    ## Education  
+    TODO
 
-    <h1 id="volunteering">Volunteering</h1>
-    <p>TODO: Write about your volunteering experience here.</p>
+    ## Volunteering  
+    TODO
 
-    <h1 id="interests">Interests</h1>
-    <p>TODO: Write about your interests here.</p>
+    ## Interests  
+    TODO
   </div>
-
 </div>
