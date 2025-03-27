@@ -1,15 +1,23 @@
 ---
-layout: default
 title: Adam Paech
 ---
 
 <link rel="stylesheet" href="assets/style.css">
 <script defer src="assets/script.js"></script>
 
-<button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
+<div class="container">
+  <aside class="sidebar">
+    <img src="assets/profile-pic.jpg" alt="Adam Paech">
+    <h1>Adam Paech</h1>
+    <p>TODO</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/adam-paech" target="_blank" class="linkedin">LinkedIn</a>
+      <a href="https://github.com/AdamPaech" target="_blank" class="github">GitHub</a>
+    </div>
+  </aside>
 
-![Adam Paech](profile.jpg){: .center-image }
-
+  <main class="content">
+    
 ## About Me  
 TODO
 
@@ -23,7 +31,7 @@ TODO
 TODO
 
 ## Interests  
-TODO 
+TODO
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/adam-paech-65a253216/)  
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/AdamPaech)
+  </main>
+</div>
