@@ -7,13 +7,16 @@ body {
     padding: 0;
 }
 
+/* Container Flexbox */
 .container {
     display: flex;
     max-width: 1200px;
     margin: 40px auto;
     width: 100%;
+    padding: 0 20px; /* Allow padding on sides for breathing room */
 }
 
+/* Left Section: Photo, Bio, Links */
 .left-side {
     width: 250px;
     padding: 20px;
@@ -62,12 +65,13 @@ body {
     color: white;
 }
 
-/* Main Content */
+/* Main Content: Flexible Layout */
 .main-content {
     flex: 1;
     padding: 20px;
     background-color: #222;
     border-radius: 10px;
+    margin-left: 20px; /* More space between left section and main content */
 }
 
 /* Heading Styling */
@@ -75,6 +79,16 @@ h2 {
     border-bottom: 2px solid #444;
     padding-bottom: 5px;
     margin-bottom: 15px;
+}
+
+/* Markdown Line Breaks */
+.main-content p {
+    margin-bottom: 15px; /* Spacing between paragraphs */
+}
+
+.main-content h1, .main-content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /* Dark Mode Customizations */
